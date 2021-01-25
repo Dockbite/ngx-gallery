@@ -1,11 +1,11 @@
 {
-  "name": "ngx-gallery",
-  "description": "Responsive Angular 2 / 4 image gallery plugin",
-  "version": "5.10.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lukasz-galka/ngx-gallery"
-  },
+  "name": "@dockbite/ngx-gallery",
+    "description": "Fork of https://github.com/lukasz-galka/ngx-gallery.git. This version supports programmatically closing a preview. Responsive Angular 2 / 4 image gallery plugin",
+  "version": "1.0.3",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Dockbite/ngx-gallery"
+    },
   "author": {
     "name": "Łukasz Gałka",
     "email": "lukasz.galka@intive.com"

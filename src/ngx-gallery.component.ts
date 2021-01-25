@@ -173,6 +173,10 @@ export class NgxGalleryComponent implements OnInit, DoCheck, AfterViewInit   {
         }
     }
 
+    closePreview(): void {
+        this.preview.close();
+    }
+
     onPreviewClose(): void {
         this.previewEnabled = false;
         this.previewClose.emit();

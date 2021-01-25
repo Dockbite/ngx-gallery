@@ -1,15 +1,11 @@
 **Off until 11.06.2018**
 
 
-
-[![npm version](https://img.shields.io/npm/v/ngx-gallery.svg)](https://www.npmjs.com/package/ngx-gallery)
-[![Downloads](https://img.shields.io/npm/dm/ngx-gallery.svg)](https://www.npmjs.com/package/ngx-gallery)
-<!-- [![DevDependencies](https://david-dm.org/lukasz-galka/ngx-gallery/dev-status.svg)](https://david-dm.org/lukasz-galka/ngx-gallery?type=dev) -->
-[![licence](https://img.shields.io/npm/l/ngx-gallery.svg)](https://www.npmjs.com/package/ngx-gallery)
-[![Build Status](https://travis-ci.org/lukasz-galka/ngx-gallery.svg?branch=master)](https://travis-ci.org/lukasz-galka/ngx-gallery)
-[![Coverage Status](https://coveralls.io/repos/github/lukasz-galka/ngx-gallery/badge.svg?branch=master)](https://coveralls.io/github/lukasz-galka/ngx-gallery?branch=master)
-
 # NgxGallery
+Fork of https://github.com/lukasz-galka/ngx-gallery.git. 
+This version supports programmatically closing a preview.
+Fork created by dockbite http://dockbite.nl
+
 Angular image gallery plugin
 
 # Demo
@@ -66,7 +62,7 @@ Angular Material is using `transform: translate3d(0,0,0);` in components styles.
 You can read more about this issue [here](https://github.com/angular/material2/issues/998)
 
 # Installation
-```npm install ngx-gallery --save```
+```npm install @dockbite/ngx-gallery --save```
 
 # NgxGalleryOptions
 
@@ -195,6 +191,7 @@ Examples for
 - `canShowNext(): boolean` - returns true if there is next image
 - `canShowPrev(): boolean` - returns true if there is prev image
 - `openPreview(index: number): void` - opens preview at index
+- `closePreview(): void` - closes preview
 - `moveThumbnailsLeft(): void` - moves thumbnails to left
 - `moveThumbnailsRight(): void` - moves thumbnails to right
 - `canMoveThumbnailsLeft(): boolean` - returns true if you can move thumbnails to left
