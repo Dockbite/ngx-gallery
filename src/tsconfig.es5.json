@@ -14,6 +14,14 @@
       "es2015",
       "dom"
     ],
+  "paths": {
+      "@dockbite/ngx-gallery": [
+          "dist"
+      ],
+      "@dockbite/ngx-gallery/*": [
+          "dist/*"
+      ]
+  },
     "skipLibCheck": true,
     "types": []
   },
@@ -22,7 +30,7 @@
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
     "flatModuleOutFile": "ngx-gallery.js",
-    "flatModuleId": "ngx-gallery"
+    "flatModuleId": "@dockbite/ngx-gallery"
   },
   "files": [
     "./index.ts"

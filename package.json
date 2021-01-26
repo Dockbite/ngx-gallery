@@ -1,6 +1,6 @@
 {
   "name": "@dockbite/ngx-gallery",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Fork of https://github.com/lukasz-galka/ngx-gallery.git. This version supports programmatically closing a preview. Responsive Angular 2 / 4 image gallery plugin",
   "scripts": {
     "build": "gulp build",
