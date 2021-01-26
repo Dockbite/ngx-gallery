@@ -138,14 +138,11 @@ gulp.task('rollup:umd', function () {
                 // The name to use for the module for UMD/IIFE bundles
                 // (required for bundles with exports)
                 // See "name" in https://rollupjs.org/#core-functionality
-                name: 'ngx-gallery',
+                name: '@dockbite/ngx-gallery',
 
                 // See "globals" in https://rollupjs.org/#core-functionality
                 globals: {
                     typescript: 'ts',
-                    '@angular/core': '@angular/core',
-                    '@angular/common': '@angular/common',
-                    '@angular/platform-browser': '@angular/platform-browser',
                 }
             }
 
