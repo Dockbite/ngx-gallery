@@ -213,8 +213,7 @@ export class NgxGalleryComponent implements OnInit, DoCheck, AfterViewInit   {
 
     canShowNext(): boolean {
         if (this.images && this.currentOptions) {
-            return (this.currentOptions.imageInfinityMove || this.selectedIndex < this.images.length - 1)
-                ? true : false;
+            return (this.currentOptions.imageInfinityMove || this.selectedIndex < this.images.length - 1);
         } else {
             return false;
         }
@@ -222,7 +221,7 @@ export class NgxGalleryComponent implements OnInit, DoCheck, AfterViewInit   {
 
     canShowPrev(): boolean {
         if (this.images && this.currentOptions) {
-            return (this.currentOptions.imageInfinityMove || this.selectedIndex > 0) ? true : false;
+            return (this.currentOptions.imageInfinityMove || this.selectedIndex > 0);
         } else {
             return false;
         }
